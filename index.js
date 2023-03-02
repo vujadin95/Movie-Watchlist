@@ -15,7 +15,7 @@ async function getMovieId() {
   if (inputSearch.value) {
     // get searched movie title and imdbID
     const result = await fetch(
-      `http://www.omdbapi.com/?s=${inputSearch.value}&type=movie&apikey=215e1087`
+      `https://www.omdbapi.com/?s=${inputSearch.value}&type=movie&apikey=215e1087`
     );
     const data = await result.json();
     console.log(data);
@@ -25,7 +25,7 @@ async function getMovieId() {
       // get short description for movies to display movie characteristics
       data.Search.map(async (movie) => {
         const response = await fetch(
-          `http://www.omdbapi.com/?i=${movie.imdbID}&type=movie&plot=short&apikey=215e1087`
+          `https://www.omdbapi.com/?i=${movie.imdbID}&type=movie&plot=short&apikey=215e1087`
         );
         const data = await response.json();
         console.log(data);
@@ -87,7 +87,7 @@ if (movieContainer) {
 
 async function getMovieForWatchlist(movieId) {
   const result = await fetch(
-    `http://www.omdbapi.com/?i=${movieId}&type=movie&plot=short&apikey=215e1087`
+    `https://www.omdbapi.com/?i=${movieId}&type=movie&plot=short&apikey=215e1087`
   );
   const data = await result.json();
   addMovieToWatchlist(data);
