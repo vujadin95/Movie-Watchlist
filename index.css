@@ -7,15 +7,15 @@
 }
 
 html {
-  background-color: #1C1C1C;
+  background-color: #1c1c1c;
 }
 
 body {
   max-width: 720px;
   margin: 0 auto;
   background-color: #121212;
-  color: #FFFFFF;
-  font-family: 'Inter', sans-serif;
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
 }
 
 header {
@@ -30,11 +30,11 @@ header {
   width: 100%;
 }
 
-header>h1 {
+header > h1 {
   font-size: 2.625rem;
 }
 
-header>p>a {
+header > p > a {
   font-size: 0.875rem;
   text-decoration: none;
   color: inherit;
@@ -48,45 +48,45 @@ header>p>a {
   top: -17px;
   margin: 0 2.75em;
   border-radius: 6px;
-  background-color: #2E2E2F;
+  background-color: #2e2e2f;
 }
 
 form {
   display: flex;
   align-items: center;
-  background-color: #2E2E2F;
+  background-color: #2e2e2f;
   margin: 0 0.8125em;
   width: 100%;
 }
 
 .icon {
-  color: #A5A5A5;
+  color: #a5a5a5;
   margin-right: 0.5em;
 }
 
-form>input {
+form > input {
   font-size: 0.875rem;
-  color: #A5A5A5;
+  color: #a5a5a5;
   outline: none;
-  background-color: #2E2E2F;
+  background-color: #2e2e2f;
   border: none;
   width: 100%;
   line-height: 25px;
 }
 
-form>input>::placeholder {
-  background-color: #2E2E2F;
+form > input > ::placeholder {
+  background-color: #2e2e2f;
 }
 
 input:-webkit-autofill {
-  -webkit-box-shadow: 0 0 0 1000px #2E2E2F inset;
-  -webkit-text-fill-color: #A5A5A5;
+  -webkit-box-shadow: 0 0 0 1000px #2e2e2f inset;
+  -webkit-text-fill-color: #a5a5a5;
 }
 
 .search-btn {
   font-size: 0.875rem;
   line-height: 1.4285;
-  background-color: #4B4B4B;
+  background-color: #4b4b4b;
   border: none;
   cursor: pointer;
   color: inherit;
@@ -104,7 +104,7 @@ input:-webkit-autofill {
 }
 
 .exploring {
-  color: #2E2E2F;
+  color: #2e2e2f;
 }
 
 .movie-container {
@@ -112,7 +112,7 @@ input:-webkit-autofill {
   padding-bottom: 1em;
   display: flex;
   align-items: center;
-  border-bottom: 1.5px solid #2C2C2C;
+  border-bottom: 1.5px solid #2c2c2c;
 }
 
 .poster {
@@ -123,11 +123,10 @@ input:-webkit-autofill {
 .movie-title {
   font-size: 1.125rem;
   font-weight: 500;
-
 }
 
 i.fa-star {
-  color: #FEC654;
+  color: #fec654;
   font-size: 0.9375rem;
   margin: 0 4px;
 }
@@ -152,7 +151,7 @@ i.fa-star {
 
 .plus-style {
   color: black;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   margin-right: 5px;
   border-radius: 50%;
   padding: 5px;
@@ -160,7 +159,7 @@ i.fa-star {
 
 .movie-plot {
   font-size: 0.875rem;
-  color: #A5A5A5;
+  color: #a5a5a5;
 }
 
 /* watchlist page stayling */
@@ -170,7 +169,7 @@ i.fa-star {
   max-width: 350px;
   padding: 20vh 0;
   display: flex;
-  flex-direction: column
+  flex-direction: column;
 }
 
 .watchlist-comment {
@@ -194,11 +193,10 @@ i.fa-star {
   text-decoration: none;
 }
 
-a.add-more-movies>i {
+a.add-more-movies > i {
   font-size: 1.125rem;
   padding: 7px;
   border-radius: 50%;
   background-color: white;
   color: black;
-
 }
